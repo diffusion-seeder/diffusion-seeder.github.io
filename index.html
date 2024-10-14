@@ -1,0 +1,228 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning</title>
+    <meta content="DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning" />
+    <meta content="DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning" property="og:title" />
+    <meta content="DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning" property="og:description" />
+    <meta content="https://diffusion-seeder.github.io/images/splash.png" property="og:image" />
+    <meta content="DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning" property="twitter:title" />
+    <meta content="DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning" property="twitter:description" />
+    <meta content="https://diffusion-seeder.github.io/images/splash.png" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <!-- <meta content="summary_large_image" name="twitter:card" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link href="style.css?v=v2" rel="stylesheet" type="text/css" />
+
+    <style>
+        ul {
+            list-style-type: disc; /* Default bullets, can be changed to circle, square, etc. */
+            padding-left: 20px; /* Indent the list */
+        }
+        
+        li {
+            font-size: 16px; /* Change font size */
+            font-weight: normal; /* Change font weight */
+            text-align: left; /* Ensure text is left-aligned */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="title-row">
+                <h1 class="title main-title"
+                    style="font-weight: 700; font-size: 50px; font-family: 'Varela Round',sans-serif; margin: 0">
+                    DiffusionSeeder</h1>
+                <h1 class="title main-title">DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning</h1>
+            </div>
+
+        
+            <div class="base-row author-row">
+                <div class="base-col author-col1">
+                    <a href="https://ravenh29.github.io/ravenhuang/" target="_blank" class="author-text">Raven Huang<sup>*</sup><sup>1</sup></a>
+                </div>
+                <div class="base-col author-col1">
+                    <a href="https://balakumar-s.github.io/" target="_blank" class="author-text">Balakumar Sundaralingam<sup>2</sup></a>
+                </div>
+                <div class="base-col author-col1">
+                    <a href="https://cs.gmu.edu/~amousavi/" target="_blank" class="author-text">Arsalan Mousavian<sup>2</sup></a>
+                </div>
+                <div class="base-col author-col2"></div>
+                    <a href="http://adithyamurali.com/" target="_blank" class="author-text">Adithyavairavan Murali<sup>2</sup></a>
+                </div>
+            </div>
+            
+            <div class="base-row author-row"></div>
+
+            <div class="base-row author-row">
+                <div class="base-col author-col2"></div>
+                
+                <div class="base-col author-col2">
+                    <a href="https://goldberg.berkeley.edu" target="_blank" class="author-text">Ken Goldberg<sup>1</sup></a>
+                </div>
+                <div class="base-col author-col2"></div>
+                    <a href="https://homes.cs.washington.edu/~fox/" target="_blank" class="author-text">Dieter Fox<sup>2</sup></a>
+                </div>
+                
+               
+            </div>
+
+            <div class="base-row affiliation-row">
+
+            </div>
+           
+            <div class="base-row affiliation-row">
+                <div class="base-col affiliation-col">
+                    <sup>*</sup>Work done during internship at NVIDIA
+                </div>
+                <div class="base-col affiliation-col">
+                    <sup>1</sup>UC Berkeley
+                </div>
+                <div class="base-col affiliation-col">
+                    <sup>2</sup>NVIDIA
+                </div>
+            </div>
+            
+            <div class="link-labels base-row" style="max-width: 500px">
+                <div class="base-col icon-col"><a href="files/paper.pdf" target="_blank"
+                        class="link-block">
+                        <i class="fa fas fa-file-text main-icon" style="font-size: 50px"></i>
+                    </a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="link-block">
+                        <i class="fa fa-github main-icon" style="font-size: 55px"></i>
+                    </a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="link-block">
+                        <i class="fa fa-database main-icon" style="font-size: 50px"></i>
+                    </a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="link-block">
+                        <i class="fa fa-download main-icon" style="font-size: 55px"></i>
+                    </a>
+                </div>
+                <div class="base-col icon-col"><a href="#citation" class="link-block">
+                        <i class="fa fa-graduation-cap main-icon" style="font-size: 50px"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="link-labels base-row" style="max-width: 500px">
+                <div class="base-col icon-col"><a href="files/paper.pdf" target="_blank"
+                        class="no-underline">
+                        <strong class="link-labels-text">Paper</strong></a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="no-underline">
+                        <strong class="link-labels-text">Code</strong></a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="no-underline">
+                        <strong class="link-labels-text">Dataset</strong></a>
+                </div>
+                <div class="base-col icon-col"><a href="" class="no-underline">
+                        <strong class="link-labels-text">Models</strong></a>
+                </div>
+                <div class="base-col icon-col"><a href="#citation" class="no-underline">
+                        <strong class="link-labels-text">Citation</strong></a>
+                </div>
+            </div>
+            <h1 class="tldr">
+                <b>TL;DR</b>:We propose DiffusionSeeder, a diffusion based method that generates diverse, multi-modal trajectories to warm start motion optimization, greatly reducing the planning time on “hard problems”.
+            </h1>
+            <video id="main-video" autobuffer="" muted="" autoplay="true" loop="true" controls="">
+                <source id="mp4" src="videos/ds-curobo-video-corl.mp4" type="video/mp4">
+            </video>
+            <div class="base-row add-top-padding">
+                <h1 class="title">Overview</h1>
+                <div class="base-row add-top-padding">
+                    <img class="img" src="images/splash.png" />
+                </div>
+                <p class="paragraph">
+                    Running optimization across many parallel seeds leveraging GPU compute have relaxed the need for a good initialization, but this can fail if the problem is highly non-convex as all seeds could get stuck in local minima. One such setting is collision-free motion optimization for robot manipulation, where optimization converges quickly on easy problems but struggle in obstacle dense environments (e.g., a cluttered cabinet or table). In these situations, graph-based planning algorithms are used to obtain seeds, resulting in significant slowdowns. We propose DiffusionSeeder, a diffusion based approach that generates trajectories to seed motion optimization for rapid robot motion planning. DiffusionSeeder takes the initial depth image observation of the scene and generates high quality, multi-modal trajectories that are then fine-tuned with few iterations of motion optimization. We integrated DiffusionSeeder to generate the seed trajectories for cuRobo, a GPU-accelerated motion optimization method, which results in 12x speed up on average, and 36x speed up for more complicated problems, while achieving 10% higher success rate in partially observed simulation environments. Our results show the effectiveness of using diverse solutions from a learned diffusion model. Physical experiments on a Franka robot demonstrate the sim2real transfer of DiffusionSeeder to the real robot, with an average success rate of 86% and planning time of 26ms, improving on cuRobo by 51% higher success rate while also being 2.5x faster.
+                </p>
+            </div>
+            <div class="base-row add-large-top-padding">
+                <h1 class="title">Methodology</h1>
+                <div class="base-row add-top-padding">
+                    <img class="img" src="images/model_diagram.png" />
+                </div>
+                <p class="paragraph add-top-padding">
+                    DiffusionSeeder trajectory generation pipeline. DiffusionSeeder consists of a ViT observation encoder (blue) and a conditional diffusion model (coral). The robot start configuration and target pose are embedded through an MLP into a “problem encoding”, which is concatenated with the environment embedding. The diffusion model conditions on the concatenated vector and a randomly-sampled noise tensor of size 32×7 to generate initial trajectories for the optimizer (green). The optimizer takes in the ESDF for collision checking. The final trajectory after optimization is shown on the right.
+                </p>
+                
+            </div>
+            <div class="base-row add-top-padding">
+                <h1 class="title">Model Architecture and Training</h1>
+
+                <p class="paragraph">
+                    <b>Observation Encoder</b> The observation encoder processes depth images, camera poses, start joint configuration, and goal pose to create a single embedding vector as the condition of the denoising diffusion process. Specifically, we use a ViT with 12 layers and 12 heads as the network backbone. Depth images, projected to 3D using camera intrinsics, are divided into 64 × 64 patches where each patch is encoded first and concatenated with the linear projection of the SE(3) homogeneous transformation of each camera pose. We add a positional embedding to each patch embedding, resulting a single 512-dimensional embedding for visual embedding using the class token of ViT. The visual embedding is concatenated with the 64-dimensional encoding vector of start configuration and goal pose, resulting in a 576-dimensional environment embedding vector for the conditional noise prediction model.
+                </p>
+
+                <p class="paragraph">
+                    <b>Noise Prediction Network</b> We adopt the CNN based architecture from [14] as the conditional noise prediction model, which is a 3-level UNet architecture consisting of conditional residual blocks with channel dimensions [256, 512, 1024]. The model encodes the time step into a latent vector of 256 dimensions through a multi-layer perceptron (MLP), which is concatenated with the environment embedding from the observation encoder, resulting an 831-dimensional conditional vector.
+                </p>
+                
+                <p class="paragraph">
+                    <b>Loss Function</b>  The objective of the noise prediction network is to predict the noise added to the original trajectory.
+                </p>
+
+
+            </div>
+            <div class="base-row add-top-padding">
+                <h1 class="title">Experiments</h1>
+                <p class="paragraph">
+                    We conduct experiments both in simulation and on a physical Franka Panda robot to evaluate DiffusionSeeder. In the following sections, we denote DiffusionSeeder as DiffusionSeeder combined with cuRobo, unless otherwise specified. 
+                </p>
+                
+                <p class="paragraph">
+                    <b>Simulation</b> We evaluate DiffusionSeeder on the MπNet simulation test set of 1791 problems. Each problem has a scene from the same scene types as the training data but with different configuration. We compare DiffusionSeeder to BiTStar, MπNet and cuRobo(v0.6.2).
+                </p>
+
+                <div class="base-row add-top-padding">
+                    <img class="img" src="images/sim_exp.png" />
+                </div>
+               
+                <div class="base-row add-top-padding">
+                    <img class="img" src="images/sim-time.png" />
+                </div>
+
+                <p class="paragraph">
+                    <b>Physical</b> We conduct experiments on a Franka Panda robot across 6 scenes, categorized into 3 difficulty tiers with 2 scenes from each tier and also an empty scene. None of the environment setups are part of our training dataset. In each scene, we select three poses that the robot needs to reach sequentially, repeating 5 times. A method is considered successful if it avoids collisions across all trials in a scene. In addition to success, we also report the time the robot was executing trajectories as Motion Time.
+                </p>
+
+                <div class="base-row add-top-padding">
+                    <img class="img" src="images/real-time.png" />
+                </div>
+               
+            </div>
+            
+
+            <div class="citation add-large-top-padding">
+                <h1 id="citation">Citation</h1>
+                <p style="font-size: 16px">If you use this work or find it helpful, please consider citing our work.</p>
+                <pre id="codecell">
+                    @article{huangdiffusionseeder,
+                        title={DiffusionSeeder: Seeding Motion Optimization with Diffusion for Rapid Motion Planning}, 
+                        author={Huang, Huang and Sundaralingam, Balakumar and Mousavian, Arsalan and Murali, Adithyavairavan and Goldberg, Ken and Fox, Dieter},
+                        booktitle={8th Annual Conference on Robot Learning},
+                        year={2024}
+                    }
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <p class="credit">Credit: The design of this project page references the project pages of <a
+            href="https://www.matthewtancik.com/nerf">NeRF</a>, <a
+            href="https://crossmae.github.io">CrossMAE</a>, <a
+            href="https://github.com/DeepMotionEditing/DeepMotionEditing.github.io">DeepMotionEditing</a>, and <a
+            href="https://www.lerf.io/">LERF</a>.</p>
+</body>
